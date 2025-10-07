@@ -2,7 +2,7 @@
 
 function findLargest(arr)
 {
-    let largestNum = -1;
+    let largestNum = arr[0];
     for (let i = 0; i < arr.length; i++)
     {
         if (arr[i] > largestNum)
