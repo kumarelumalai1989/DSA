@@ -1,4 +1,4 @@
-//Remove Duplicates from Sorted Array
+//Remove Duplicates from Sorted Array: non-decreasing order, remove the duplicates in-place
 function(nums) {
     let x = 0;
     for(let i=0;i<nums.length;i++)
@@ -10,4 +10,5 @@ function(nums) {
         }
     }
     return x + 1;
+
 };
